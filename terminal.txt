@@ -1,0 +1,43 @@
+1. Open linux terminal
+2. Type cd ~ and press enter.
+3. Type pwd and press enter.
+    a. What does the terminal output? 
+       /Users/angelacao (my home directory)
+    b. Briefly describe what pwd does. 
+       Shows what directory you are currently in
+    c. What does ~ mean in linux terminal? 
+       The home directory 
+
+4. type cd / and press enter.
+    a. Type cd .. and press enter
+    b. Type pwd and press enter
+    c. Repeat step a and b.
+    d. Which directory are you in? 
+       The root directory
+
+5. What is the difference between the home directory and the root directory?
+   The home directory, also known as a login directory, is the directory that serves as the repository for a user's personal files, directories, and programs; it is also the directory that a user is first in after logging into the system. The root directory is the top level directory that contains all other directories and their subdirectories. 
+
+6. Type hello. What does the terminal output? 
+    zsh: command not found: hello
+    a. Now type alias hello='echo hello <NAME>', then press enter. Remember to replace <NAME> w/ a random name
+    b. Now type hello. What does the terminal output? 
+       hello <NAME>
+
+7. Press the up and down arrow keys. What do you notice?
+   All the commands used in this runtime session of the terminal (up goes previous commands while down goes next commands)
+
+8. Go to https://aboutalan.herokuapp.com/reference%20guides/commands.txt
+    a. Describe how to build and run "Sandbox.java" in terminal.
+       $javac Sandbox.java
+       $java Sandbox.java
+    b. Describe how to do build and run "Sandbox.java" in makefile using "build" and "run" tags.
+        - In makefile:
+	  Sandbox: 
+	      	  $javac Sandbox.java
+	          $java Sandbox.java
+        - In terminal:
+	  $ make Sandbox
+
+9. Type telnet towel.blinkenlights.nl and press enter. Recognize something?
+   Plays a Star Wars movie in ASCII Text
